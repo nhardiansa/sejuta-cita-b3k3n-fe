@@ -11,6 +11,9 @@ module.exports = {
         primary: "#1b1b4b",
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [require("tw-elements/dist/plugin")],
 };
