@@ -5,7 +5,12 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "sje-yellow": "#ffb703",
+        primary: "#1b1b4b",
+      },
+    },
   },
   plugins: [require("tw-elements/dist/plugin")],
 };
